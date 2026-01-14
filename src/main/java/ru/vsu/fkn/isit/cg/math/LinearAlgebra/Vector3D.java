@@ -1,4 +1,4 @@
-package main.LinearAlgebra;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 public class Vector3D extends Vector<Vector3D>{
     public Vector3D(float [] data){

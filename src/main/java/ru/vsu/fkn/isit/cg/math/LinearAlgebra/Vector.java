@@ -1,4 +1,4 @@
-package main.LinearAlgebra;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 import java.util.Arrays;
 

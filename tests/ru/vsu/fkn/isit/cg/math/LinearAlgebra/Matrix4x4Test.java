@@ -1,9 +1,12 @@
-package test;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 
+import ru.vsu.fkn.isit.cg.math.LinearAlgebra.Matrix4x4;
+import ru.vsu.fkn.isit.cg.math.LinearAlgebra.Vector2D;
+import ru.vsu.fkn.isit.cg.math.LinearAlgebra.Vector3D;
+import ru.vsu.fkn.isit.cg.math.LinearAlgebra.Vector4D;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import main.LinearAlgebra.*;
 
 
 public class Matrix4x4Test {

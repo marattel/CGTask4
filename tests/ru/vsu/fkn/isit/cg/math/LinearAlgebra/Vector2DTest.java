@@ -1,6 +1,6 @@
-package test;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
-import main.LinearAlgebra.Vector2D;
+import ru.vsu.fkn.isit.cg.math.LinearAlgebra.Vector2D;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

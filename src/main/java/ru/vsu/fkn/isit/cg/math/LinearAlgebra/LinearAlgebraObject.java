@@ -1,4 +1,4 @@
-package main.LinearAlgebra;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 public abstract class LinearAlgebraObject {
     private static final float eps = 1e-9f;

@@ -1,8 +1,8 @@
-package test;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import main.LinearAlgebra.Vector3D;
+import ru.vsu.fkn.isit.cg.math.LinearAlgebra.Vector3D;
 
 public class Vector3DTest {
 

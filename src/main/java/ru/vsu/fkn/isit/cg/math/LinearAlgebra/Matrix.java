@@ -1,4 +1,4 @@
-package main.LinearAlgebra;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 import java.util.Arrays;
 
@@ -64,6 +64,23 @@ public abstract class Matrix<T extends Matrix<T>> extends LinearAlgebraObject{
         return createNew(resultData);
     }
 
+    public T multiplyByScalar(float scalar) {
+        float[][] resultData = new float[this.data.length][this.data.length];
+        for (int j = 0; j < this.data.length; j++) {
+            for (int i = 0; i < this.data.length; i++) {
+                resultData[j][i] = this.data[j][i] * scalar;
+            }
+        }
+        return createNew(resultData);
+    }
+
+    public T divisionByScalar(float scalar) {
+        if (LinearAlgebraObject.floatIsNotZero(scalar)) {
+            return multiplyByScalar(1 / scalar);
+        }else {
+            throw new IllegalArgumentException("Скаляр равен нулю, а вы на него делите!");
+        }
+    }
 
     public T transpose() {
         float[][] resultData = new float[this.data.length][this.data.length];

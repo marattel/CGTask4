@@ -1,4 +1,4 @@
-package main.LinearAlgebra;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 public class Matrix4x4 extends Matrix<Matrix4x4>{
     public Matrix4x4(float [][] data){

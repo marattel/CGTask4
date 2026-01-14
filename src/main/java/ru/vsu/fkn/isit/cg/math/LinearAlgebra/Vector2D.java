@@ -1,4 +1,4 @@
-package main.LinearAlgebra;
+package ru.vsu.fkn.isit.cg.math.LinearAlgebra;
 
 public class Vector2D extends Vector<Vector2D>{
     public Vector2D(float [] data){
